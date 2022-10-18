@@ -31,6 +31,7 @@ class Login extends StatelessWidget {
                 Text('Lorem ipsum dolor'),
                   Text('sit amet lorem ipsum dolors'),
             Text('sit amet'),
+            Text('sit amet'),
               ],
             ),
           
