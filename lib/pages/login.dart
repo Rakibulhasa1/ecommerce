@@ -1,7 +1,7 @@
 
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:ecommerce/pages/home.dart';
+import 'package:ecommerce/pages/main_home.dart';
 import 'package:ecommerce/pages/sign_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -92,7 +92,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 55,
               width: MediaQuery.of(context).size.width,
               child: ElevatedButton(onPressed: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>MainHome()));
               }, 
              
               style: ElevatedButton.styleFrom(
